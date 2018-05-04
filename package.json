@@ -1,0 +1,28 @@
+{
+  "name": "pronorm",
+  "version": "1.0.0",
+  "description": "Normalise protein abundance data",
+  "main": "normalise.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knicos/pronorm.git"
+  },
+  "keywords": [
+    "protein",
+    "normalise",
+    "normalize"
+  ],
+  "author": "Nicolas Pope",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/knicos/pronorm/issues"
+  },
+  "homepage": "https://github.com/knicos/pronorm#readme",
+  "dependencies": {
+    "simple-statistics": "^6.0.0",
+    "yargs": "^11.0.0"
+  }
+}
